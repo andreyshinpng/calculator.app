@@ -1,7 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
-body {
-    font-family: 'Montserrat', sans-serif;
+@font-face {
+    font-family: "Lucida Console Local";
+    src: url(../fonts/lucidaconsole.ttf) format("truetype");
+}
+
+body, input {
+    font-family: "Lucida Console Local", sans-serif;
 }
 
 body, p {
@@ -60,7 +65,6 @@ form {
 }
 
 input {
-    font-family: 'Montserrat', sans-serif;
     border-radius: 4px;
 }
 
